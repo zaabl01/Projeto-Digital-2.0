@@ -29,17 +29,19 @@ body{
 .myservices {
     color: #fff;
     text-align: start;
-   
+   font-size: 32px;
     margin-right:9.5%;
 
 }
 
 .help {
     color: #d9c884;
-    font-family: sans-serif;
-    font-weight: 100;
+}
+.texto-help{
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-
+    font-weight: 700;
+    font-size: 60px;
 }
 .pai{
     flex-direction: row ;
@@ -57,19 +59,22 @@ body{
 .Portifolio{
     color: white;
     text-decoration: underline white;
+    font-size: 24px;
 }
 .link-isaac{
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 .titulo01{
     color: #d9c884;
-   font-size: 42px;
+   font-size: 48px;
    font-weight: bolder;
 }
 .paragrafo1{
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
+  font-weight: 500;
 }
 .img-pai{
     display: flex;
@@ -80,7 +85,10 @@ body{
 .navbar-isaac{
     display: flex;
     justify-content: flex-end;
-    width: 1000px;
+}
+.img-navbar{
+    width: 2200px;
+    height: 100px;
 }
 .cabecalho{
     margin-top: 20px;
@@ -262,10 +270,27 @@ color: #d9c884;
 .copy{
     color: white;
     font-weight: lighter;
+    font-size: 24px;
 }
 .copy-pai{
     margin-top: 5;
     display: flex;
-    justify-content: space-around;
+
+    background-color: #11223c;
+}
+.section-img-pai{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img-mulher{
+    height: 480px;
+    max-height: 150%;
+}
+.made-by{
+ color: white;
+ font-size: 24px;
+}
+.copy-pai2{
     background-color: #11223c;
 }
