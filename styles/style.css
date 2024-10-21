@@ -7,6 +7,13 @@ body{
     background-color: #0a1321;
 }
 
+.main-isaac{
+     background-image: url(https://media.discordapp.net/attachments/1148724561706225739/1295861481732050945/Novo_Projeto_2.png?ex=671770cd&is=67161f4d&hm=92ffd79462c285655e6fa2753975729f81407b56173e18ce760f53e9d6457e21&=&format=webp&quality=lossless&width=685&height=385);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #11223c;
+
+}
 .conteudo-img {
     display: flex;
     justify-content: center;
@@ -81,11 +88,6 @@ body{
 .titulo1{
     color: #b69d0f;
     font-size: 36px;
-}
-body{
-    background-image: url(https://media.discordapp.net/attachments/1148724561706225739/1295861481732050945/Novo_Projeto_2.png?ex=6710308d&is=670edf0d&hm=f7a0fa18dc531d0d38619336970970a662b0f8bae0db395849c95089eb706f3b&=&format=webp&quality=lossless&width=1190&height=669);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .conteudo-texto{
     text-align: center;
@@ -234,8 +236,36 @@ body{
     font-weight: bolder;
 }
 
-.limite{
-    background-color: red;
-    font-size: 4px;
+.imagens-isaac{
+    display: flex;
 }
+.img-isaac{
 
+width: 50px;
+height: 50px;
+color: #d9c884;
+}
+.footer-pai{
+    display: flex;
+    margin: 0 auto;
+   justify-content: space-around;
+    height: 50%;
+    margin-top: 70px;
+   padding-top: 30px;
+    background-color: #11223c;
+
+}
+.creative-isaac{
+    color: #d9c884;
+    font-weight: bold;
+}
+.copy{
+    color: white;
+    font-weight: lighter;
+}
+.copy-pai{
+    margin-top: 5;
+    display: flex;
+    justify-content: space-around;
+    background-color: #11223c;
+}
